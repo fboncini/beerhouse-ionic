@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      BeerHouse
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background-color: grey; color: white; font-size: 20px">
+  <ion-row>
+    <ion-col col-sm>Nombre</ion-col>
+    <ion-col col-sm>Precio</ion-col>
+    <ion-col col-sm></ion-col>
+    <ion-col col-sm>Cantidad</ion-col>
+  </ion-row>
+  <ion-row *ngFor="let list of products">
+    <h1>{{list.category}}</h1>
+    <ion-row *ngFor="let product of list.products">
+      <ion-col col-sm>{{product.name}}</ion-col>
+      <ion-col col-sm>${{product.price}}</ion-col>
+      <ion-col col-sm style="color: blue">
+        <button ion-button (click)="add(product.id)" style="size: 1px">
+          +
+        </button>
+        <button ion-button (click)="remove(product.id)" style="size: 1px">
+          -
+        </button>
+      </ion-col>
+      <ion-col col-sm>{{product.cantity}}</ion-col>
+    </ion-row>
+  </ion-row>
+  <button ion-button (click)="goTo()">ver pedido</button>
+</ion-content>

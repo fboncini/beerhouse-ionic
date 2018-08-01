@@ -1,0 +1,7 @@
+{
+  "name": "beerhouse",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

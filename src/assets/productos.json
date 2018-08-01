@@ -1,0 +1,149 @@
+[
+    {
+        "category": "PIZZAS",
+        "products":[
+           {
+            "id": 3,
+            "name": "NAPOLITANA",
+            "price": 239,
+            "cantity": 0
+           },
+           {
+            "id": 4,
+            "name": "RUCULA",
+            "price": 289,
+            "cantity": 0
+           },
+           {
+            "id": 5,
+            "name": "BEERHOUSE BOMB",
+            "price": 259,
+            "cantity": 0
+           }  
+        ]
+    },
+    {
+        "category": "ENTRANTES",
+        "products":[
+           {
+            "id": 6,
+            "name": "PAPAS CANASTA",
+            "price": 120,
+            "cantity": 0
+           },
+           {
+            "id": 7,
+            "name": "PAPAS FRITAS",
+            "price": 110,
+            "cantity": 0
+           },
+           {
+            "id": 8,
+            "name": "PAPAS CASCADA",
+            "price": 159,
+            "cantity": 0
+           },
+           {
+            "id": 9,
+            "name": "RABAS",
+            "price": 249,
+            "cantity": 0
+           },
+           {
+            "id": 10,
+            "name": "LANGOSTINOS EMPANADOS",
+            "price": 249,
+            "cantity": 0
+           },
+           {
+            "id": 11,
+            "name": "CHICKEN FINGERS",
+            "price": 210,
+            "cantity": 0
+           },
+           {
+            "id": 12,
+            "name": "NACHOS 3 SALSAS",
+            "price": 119,
+            "cantity": 0
+           },
+           {
+            "id": 13,
+            "name": "TABLA DE FIAMBRES",
+            "price": 259,
+            "cantity": 0
+           },
+           {
+            "id": 14,
+            "name": "BASTONES DE MOZZARELLA",
+            "price": 169,
+            "cantity": 0
+           }  
+        ]
+    },
+    {
+        "category": "SANDWICHES",
+        "products":[
+            {
+                "id": 15,
+                "name": "BURGUER BH",
+                "price": 189,
+                "cantity": 0
+            },
+            {
+                "id": 15,
+                "name": "SANDWICH ESTILO CRIOLLO",
+                "price": 210,
+                "cantity": 0
+            },
+            {
+                "id": 16,
+                "name": "SANDWICH POLLO CHEDDAR",
+                "price": 189,
+                "cantity": 0
+            },
+            {
+                "id": 17,
+                "name": "SANDWICH VEGGIE",
+                "price": 179,
+                "cantity": 0
+            }  
+        ]
+    },
+    {
+
+        "category": "TACOS",
+        "products":
+        [
+            {
+            "id": 18,
+            "name": "CARNE",
+            "price": 189,
+            "cantity": 0            
+            },
+            {
+            "id": 19,
+            "name": "VEGETARIANO",
+            "price": 169,
+            "cantity": 0
+            }
+        ]
+    },
+    {
+        "category": "BEBIDAS",
+        "products":
+        [{
+            "id": 1,
+            "name": "CERVEZA",
+            "price": 100,
+            "cantity": 0            
+        },
+        {
+        "id": 2,
+        "name": "GASEOSA",
+        "price": 50,
+        "cantity": 0
+        }]
+    }
+
+]
