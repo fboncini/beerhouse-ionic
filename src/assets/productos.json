@@ -1,149 +1,291 @@
 [
     {
+        "category": "APPETIZER",
+        "products":[
+           {
+                "id": 1,
+                "name": "Nachos",
+                "price": 239,
+                "description": "c/ cheddar y guacamole",
+                "cantity": 0
+           },
+           {
+                "id": 2,
+                "name": "Bastones de mozza",
+                "price": 289,
+                "description": "c/ salsa de tomate agridulce",
+                "cantity": 0
+           },
+           {
+                "id": 3,
+                "name": "Chiken dice",
+                "price": 259,
+                "description": "dados de pollo c/ dips de ketchup, cebolla y sesamo",
+                "cantity": 0
+           },
+           {
+                "id": 4,
+                "name": "Langostinos apanados",
+                "price": 120,
+                "description": "c/ dips de guacamole",
+                "cantity": 0
+           },
+           {
+                "id": 5,
+                "name": "Rabas",
+                "price": 249,
+                "description": "c/ alioli",
+                "cantity": 0
+           },
+           {
+                "id": 6,
+                "name": "Papas viejo john",
+                "price": 110,
+                "description": "Cheddar, panceta, verdeo y huevo",
+                "cantity": 0
+           },
+           {
+                "id": 7,
+                "name": "Papas rusticas",
+                "price": 110,
+                "description": "c/ dips de barbacoa",
+                "cantity": 0
+           },
+           {
+                "id": 8,
+                "name": "Papas bravas",
+                "price": 110,
+                "description":"",
+                "cantity": 0
+           },
+           {
+                "id": 9,
+                "name": "Picada john",
+                "price": 110,
+                "description":"frio-caliente",
+                "cantity": 0
+           }
+        ]
+    },
+    {
         "category": "PIZZAS",
-        "products":[
+        "products":[        
            {
-            "id": 3,
-            "name": "NAPOLITANA",
-            "price": 239,
-            "cantity": 0
+                "id": 10,
+                "name": "Viejo john",
+                "price": 159,
+                "description":"panceta, cheddar, cebolla caramelizada, barbacoa y huevo",
+                "cantity": 0
+           },
+           
+           {
+                "id": 11,
+                "name": "Vegetariana",
+                "price": 249,
+                "description":"mix de vegetales grillados",
+                "cantity": 0
            },
            {
-            "id": 4,
-            "name": "RUCULA",
-            "price": 289,
-            "cantity": 0
+                "id": 12,
+                "name": "1218",
+                "price": 119,
+                "description":"rucula, cebolla morada, tomate y aderezo de queso azul",
+                "cantity": 0
            },
            {
-            "id": 5,
-            "name": "BEERHOUSE BOMB",
-            "price": 259,
-            "cantity": 0
+                "id": 13,
+                "name": "Mozzarella",
+                "price": 259,
+                "description":"",
+                "cantity": 0
+           },
+           {
+                "id": 14,
+                "name": "Napolitana",
+                "price": 169,
+                "description":"",
+                "cantity": 0
+           },
+           {
+                "id": 15,
+                "name": "Especial",
+                "price": 110,
+                "description":"",
+                "cantity": 0
            }  
         ]
     },
     {
-        "category": "ENTRANTES",
+        "category": "HAMBURGUESAS",
         "products":[
-           {
-            "id": 6,
-            "name": "PAPAS CANASTA",
-            "price": 120,
-            "cantity": 0
-           },
-           {
-            "id": 7,
-            "name": "PAPAS FRITAS",
-            "price": 110,
-            "cantity": 0
-           },
-           {
-            "id": 8,
-            "name": "PAPAS CASCADA",
-            "price": 159,
-            "cantity": 0
-           },
-           {
-            "id": 9,
-            "name": "RABAS",
-            "price": 249,
-            "cantity": 0
-           },
-           {
-            "id": 10,
-            "name": "LANGOSTINOS EMPANADOS",
-            "price": 249,
-            "cantity": 0
-           },
-           {
-            "id": 11,
-            "name": "CHICKEN FINGERS",
-            "price": 210,
-            "cantity": 0
-           },
-           {
-            "id": 12,
-            "name": "NACHOS 3 SALSAS",
-            "price": 119,
-            "cantity": 0
-           },
-           {
-            "id": 13,
-            "name": "TABLA DE FIAMBRES",
-            "price": 259,
-            "cantity": 0
-           },
-           {
-            "id": 14,
-            "name": "BASTONES DE MOZZARELLA",
-            "price": 169,
-            "cantity": 0
-           }  
-        ]
-    },
-    {
-        "category": "SANDWICHES",
-        "products":[
-            {
-                "id": 15,
-                "name": "BURGUER BH",
-                "price": 189,
-                "cantity": 0
-            },
-            {
-                "id": 15,
-                "name": "SANDWICH ESTILO CRIOLLO",
-                "price": 210,
-                "cantity": 0
-            },
             {
                 "id": 16,
-                "name": "SANDWICH POLLO CHEDDAR",
+                "name": "Viejo john",
                 "price": 189,
+                "description":"panceta, cheddar, cebolla caramelizada, barbacoa y huevo",
                 "cantity": 0
             },
             {
                 "id": 17,
-                "name": "SANDWICH VEGGIE",
+                "name": "1218",
                 "price": 179,
+                "description":"rucula, cebolla morada, tomate y aderezo de queso azul",
                 "cantity": 0
-            }  
-        ]
-    },
-    {
-
-        "category": "TACOS",
-        "products":
-        [
-            {
-            "id": 18,
-            "name": "CARNE",
-            "price": 189,
-            "cantity": 0            
             },
             {
-            "id": 19,
-            "name": "VEGETARIANO",
-            "price": 169,
-            "cantity": 0
+                "id": 18,
+                "name": "Mexican style",
+                "price": 110,
+                "description":"cheddar, lechuga, guacamole y dips de salsa picante",
+                "cantity": 0
+            },
+            {
+                "id": 19,
+                "name": "Completa",
+                "price": 110,
+                "description":"1 medallon, lechuga, tomate, jamon, queso y huevo",
+                "cantity": 0
             }
         ]
     },
     {
-        "category": "BEBIDAS",
+        "category": "PIZZANESA",
         "products":
-        [{
-            "id": 1,
-            "name": "CERVEZA",
-            "price": 100,
-            "cantity": 0            
-        },
-        {
-        "id": 2,
-        "name": "GASEOSA",
-        "price": 50,
-        "cantity": 0
-        }]
-    }
+        [
+            {
+                "id": 31,
+                "name": "Viejo john chica",
+                "price": 110,
+                "description":"panceta, cheddar, cebolla caramelizada, barbacoa y huevo",
+                "cantity": 0
+            },
+            {
+                "id": 32,
+                "name": "Viejo john grande",
+                "price": 110,
+                "description":"panceta, cheddar, cebolla caramelizada, barbacoa y huevo",
+                "cantity": 0
+            },
+            {
+                "id": 33,
+                "name": "Vegetales chica",
+                "price": 110,
+                "description":"vegetales grillados, mozzarella, salsa de tomate y cherrys caramelizados",
+                "cantity": 0
+            },
+            {
+                "id": 34,
+                "name": "Vegetales grande",
+                "price": 110,
+                "description":"vegetales grillados, mozzarella, salsa de tomate y cherrys caramelizados",
+                "cantity": 0
+            },
+            {
+                "id": 35,
+                "name": "Napolitana chica",
+                "price": 110,
+                "description":"Mozzarella, tomate natural, aceite de ajo",
+                "cantity": 0
+            },  
+            {
+                "id": 36,
+                "name": "Napolitana chica",
+                "price": 110,
+                "description":"Mozzarella, tomate natural, aceite de ajo",
+                "cantity": 0
+            }          
+        ]
+    },
+    {
 
+        "category": "PRINCIPALES",
+        "products":
+        [
+            {
+                "id": 20,
+                "name": "Chiken wrapped",
+                "price": 189,
+                "description":"pechuga envuelta en panceta, cheddar, pesto de albahaca, tomates secos, sobre cebolla caramelizada",
+                "cantity": 0            
+            },
+            {
+                "id": 21,
+                "name": "Bondiola a la cerveza negra",
+                "price": 169,
+                "description":"c/ pure de batatas",
+                "cantity": 0
+            },
+            {
+                "id": 22,
+                "name": "Asado banderita",
+                "price": 110,
+                "description":"c/ papas rusticas, ensalada de rucula y parmesano",
+                "cantity": 0
+            },
+            {
+                "id": 23,
+                "name": "Sorrentinos",
+                "price": 110,
+                "description":"jamon y queso, salsa fileto, crema o rosa",
+                "cantity": 0
+            }
+        ]
+    },
+    {
+        "category": "Ensaladas",
+        "products":
+        [
+            {
+                "id": 24,
+                "name": "Caesar",
+                "price": 100,
+                "description":"",
+                "cantity": 0            
+            },
+            {
+                "id": 25,
+                "name": "Cucú",
+                "price": 50,
+                "description":"vegetales tibios, mix de hojas, queso saborizado, tomates Cherry y palta",
+                "cantity": 0
+            },
+            {
+                "id": 26,
+                "name": "Doris",
+                "price": 110,
+                "description":"mix de hojas, cebolla morada, tomates Cherry y langostinos",
+                "cantity": 0
+            }
+        ]
+    },
+    {
+        "category": "Postres",
+        "products":
+        [
+            {
+                "id": 27,
+                "name": "Brownie con helado",
+                "price": 100,
+                "cantity": 0            
+            },
+            {
+                "id": 28,
+                "name": "Flan casero",
+                "price": 50,
+                "cantity": 0
+            },
+            {
+                "id": 29,
+                "name": "Volcan con helado",
+                "price": 110,
+                "cantity": 0
+            },
+            {
+                "id": 30,
+                "name": "Helado",
+                "price": 110,
+                "cantity": 0
+            }
+        ]
+    }
 ]

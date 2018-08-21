@@ -6,5 +6,7 @@ export class Product {
     
     public price: number;
 
+    public description: string;
+
     public cantity: number;
 }

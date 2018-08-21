@@ -3,7 +3,6 @@ import { NavController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { PedidoPage } from '../pedido/pedido';
-import { Product } from '../../Product';
 import { Menu } from '../../Menu';
 
 
@@ -13,7 +12,7 @@ import { Menu } from '../../Menu';
 })
 export class HomePage {
 
-  products: Menu[];
+  menu: Menu[];
 
   constructor(public navCtrl: NavController, public http: Http) {
     this.getJSon();
@@ -21,7 +20,7 @@ export class HomePage {
 
   getJSon() {
     return this.http.get('assets/productos.json').map(res => res.json()).subscribe(data => {
-      this.products = data;
+      this.menu = data;
       err => {
         console.log(err);
       }
@@ -29,7 +28,7 @@ export class HomePage {
   }
 
   add(id : number) {
-    this.products.forEach(
+    this.menu.forEach(
       element => element.products.forEach(product => {
         if(product.id == id)
         {
@@ -40,7 +39,7 @@ export class HomePage {
 
   remove(id : number)
   {
-    this.products.forEach(
+    this.menu.forEach(
       element => element.products.forEach(product => {
         if(product.id == id)
         {
@@ -54,12 +53,12 @@ export class HomePage {
 
   goTo()
   {
-    this.navCtrl.push(PedidoPage, {data:this.products})
+    this.navCtrl.push(PedidoPage, {data:this.menu})
   }
 
   findId(id : number)
   {
-    this.products.forEach(
+    this.menu.forEach(
       element => element.products.forEach(product => {
         if(product.id == id)
         {

@@ -1,32 +1,35 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      BeerHouse
+      Viejo John
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content style="background-color: grey; color: white; font-size: 20px">
-  <ion-row>
-    <ion-col col-sm>Nombre</ion-col>
-    <ion-col col-sm>Precio</ion-col>
-    <ion-col col-sm></ion-col>
-    <ion-col col-sm>Cantidad</ion-col>
-  </ion-row>
-  <ion-row *ngFor="let list of products">
-    <h1>{{list.category}}</h1>
-    <ion-row *ngFor="let product of list.products">
-      <ion-col col-sm>{{product.name}}</ion-col>
-      <ion-col col-sm>${{product.price}}</ion-col>
-      <ion-col col-sm style="color: blue">
-        <button ion-button (click)="add(product.id)" style="size: 1px">
+  <ion-row class="list">
+    <ion-col col-5 class="nameColumn">Nombre</ion-col>
+    <ion-col  class="priceColumn">Precio</ion-col>
+    <ion-col  class="buttonColumn"></ion-col>
+    <ion-col  class="cantityColumn">Cantidad</ion-col>
+  </ion-row >
+  <ion-row *ngFor="let list of menu" class="list">
+    <h1 class="category">{{list.category}}</h1>
+    <ion-row *ngFor="let product of list.products" class="list">
+      <ion-col col-5 class="nameColumn">
+        <h2 class="name">{{product.name}}</h2>
+        <p>{{product.description}}</p>
+      </ion-col>
+      <ion-col class="priceColumn">${{product.price}}</ion-col>
+      <ion-col class="buttonColumn">
+        <button ion-button (click)="add(product.id)" class="cantity-button">
           +
         </button>
-        <button ion-button (click)="remove(product.id)" style="size: 1px">
+        <button ion-button (click)="remove(product.id)" class="cantity-button">
           -
         </button>
       </ion-col>
-      <ion-col col-sm>{{product.cantity}}</ion-col>
+      <ion-col  class="cantityColumn">{{product.cantity}}</ion-col>
     </ion-row>
   </ion-row>
   <button ion-button (click)="goTo()">ver pedido</button>
