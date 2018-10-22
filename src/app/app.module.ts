@@ -7,12 +7,14 @@ import {HttpModule} from '@angular/http'
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PedidoPage} from '../pages/pedido/pedido';
+import { DetailsPage} from '../pages/details/details';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    PedidoPage
+    PedidoPage,
+    DetailsPage
   ],
   imports: [
     HttpModule,
@@ -23,7 +25,8 @@ import { PedidoPage} from '../pages/pedido/pedido';
   entryComponents: [
     MyApp,
     HomePage,
-    PedidoPage
+    PedidoPage,
+    DetailsPage
   ],
   providers: [
     StatusBar,

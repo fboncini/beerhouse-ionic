@@ -9,4 +9,6 @@ export class Product {
     public description: string;
 
     public cantity: number;
+
+    public Image: string;
 }

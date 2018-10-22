@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { PedidoPage } from '../pedido/pedido';
 import { Menu } from '../../Menu';
+import { DetailsPage } from '../details/details';
 
 
 @Component({
@@ -12,10 +13,11 @@ import { Menu } from '../../Menu';
 })
 export class HomePage {
 
-  menu: Menu[];
+  menu: Menu[];  
 
-  constructor(public navCtrl: NavController, public http: Http) {
+  constructor(public navCtrl: NavController, public http: Http, public navParams: NavParams,) {
     this.getJSon();
+    this.menu = this.navParams.get('data');
   }
 
   getJSon() {
@@ -51,7 +53,7 @@ export class HomePage {
       }))
   }
 
-  goTo()
+  goToConfirm()
   {
     this.navCtrl.push(PedidoPage, {data:this.menu})
   }
@@ -66,5 +68,11 @@ export class HomePage {
         }
       }))
   }
+
+  goToDetails(id: number)
+  {
+    this.navCtrl.push(DetailsPage, {data:this.menu, id:id})
+  }
+  
 }
 

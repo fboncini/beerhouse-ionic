@@ -7,14 +7,16 @@
                 "name": "Nachos",
                 "price": 239,
                 "description": "c/ cheddar y guacamole",
-                "cantity": 0
+                "cantity": 0,
+                "image": "image/nachos.jpg"
            },
            {
                 "id": 2,
                 "name": "Bastones de mozza",
                 "price": 289,
                 "description": "c/ salsa de tomate agridulce",
-                "cantity": 0
+                "cantity": 0,
+                "image": "image/palitosMozzarella.jpg"
            },
            {
                 "id": 3,
@@ -123,7 +125,8 @@
                 "name": "Viejo john",
                 "price": 189,
                 "description":"panceta, cheddar, cebolla caramelizada, barbacoa y huevo",
-                "cantity": 0
+                "cantity": 0,
+                "image": "foto.png"
             },
             {
                 "id": 17,
